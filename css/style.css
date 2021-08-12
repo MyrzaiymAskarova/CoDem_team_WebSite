@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*:after {
+    box-sizing: inherit;
+}
+/*making the border-sizing as border-box*/
+
+
+/*general styles*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.sect__title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;}
+
+/*styles for video section*/
+.sect__video {
+    padding-top: 50px;
+    padding-bottom: 88px;
+}
+
+.aboutus {
+    margin-bottom: 55px;
+}
+
+/*section inner and section column could be as general styles*/
+.sect__inner {
+    display: flex;
+    align-items: center;
+}
+
+.sect__column {
+    max-width: 540px;
+    padding-right: 95px;
+}
+
+.video__description {
+    line-height: 140%;
+    /* or 20px */
+    text-align: justify;
+}
+
+.video__player {
+    width: 530px;
+    height: 300px;
+    border-radius: 15px;
+}
