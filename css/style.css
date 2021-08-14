@@ -64,3 +64,118 @@ body {
     height: 300px;
     border-radius: 15px;
 }
+.features-title{
+    font-weight: bold;
+    font-size: 36px;
+}
+.features {
+    padding-top: 60px;
+    padding-bottom: 157px;
+    background-color: #fff;
+}
+.features-title{
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+
+.features-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.features-item{
+    position: relative;
+    width: 350px;
+    min-height: 280px;
+    margin-bottom: 18%;
+    padding: 0 38px;
+    background-image: url('../images/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.features-item:nth-child(2) {
+    background-image: url('../images/img2.jpg');
+}
+
+.features-item:nth-child(3) {
+    background-image: url('../images/img3.jpg');
+}
+.features-item:nth-child(4) {
+    background-image: url('../images/img4.jpg');
+}
+.features-item:nth-child(5) {
+    background-image: url('../images/img5.jpeg');
+}
+.features-item:nth-child(6) {
+    background-image: url('../images/img6.jpg');
+}
+.features-item:nth-child(7) {
+    background-image: url('../images/img7.jpeg');
+}
+.features-item:nth-child(8) {
+    background-image: url('../images/img8.jpeg');
+}
+.features-item:nth-child(9) {
+    background-image: url('../images/img9.jpeg');
+}
+.features-item-inner{
+    width: 293px;
+    margin-top: 218px;
+    margin-bottom: -100px;
+    padding: 33px 32px;
+    text-align: center;
+    color: #101010;
+    background: radial-gradient(at top, #78dddd, #fff);
+    border-radius: 8px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    animation: ani 5s;
+}
+@keyframes ani {
+    10% {
+        opacity: 0;
+        background-color: rgb(29, 124, 148);
+    }
+    40% {
+        opacity: 10;
+        background-color: rgb(45, 195, 233);
+    }
+    60% {
+        opacity: 40;
+        background-color: rgb(112, 179, 196);
+    }
+    100% {
+        opacity: 100;
+        background-color: rgb(125, 228, 253);
+    }
+    
+}
+
+.features-item-title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.features-descr {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+.features-link {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    color: rgba(4, 13, 94, 0.8);
+    text-decoration: none;
+}
